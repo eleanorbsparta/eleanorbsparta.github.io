@@ -1,0 +1,316 @@
+.box-1{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+}
+.navbar{}
+.navbar-expand{-sm|-md|-lg|-xl}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+a{
+    position: relative;
+    display: inline-block;
+    padding: 25px, 30px;
+    margin: 40px 0;
+    color: #c803f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+a:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparents, #0005);
+}
+a:nth-child(2) {
+    filter: hue-rotate(270deg);
+}
+a span {
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+a span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animate3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+#Bulk{
+    display: flex;
+    justify-content: top;
+    align-items: left;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    width: 300px;
+    Height:150px;
+}
+
+#Bulk{
+    position: relative;
+    display: inline-table;
+    padding: 25px, 30px;
+    margin: 40px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+#Bulk:hover{
+    background: #ffffffe2;
+    color: #050801;
+    -webkit-box-reflect: below 1px linear-gradient(transparents, #0005);
+}
+
+
+#Ed_txt{
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    justify-items: center;
+    align-items: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-spacing: 20px;
+}
+#Ed_txt:hover{
+    padding: 10px;
+    background-color: #000000e2;
+    color: #c803f4;
+    justify-items: center;
+    align-items: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-spacing: 20px;
+}
+
+#Sk_txt{
+    padding: 10px;
+    color: #03e9f4;
+    justify-items: center;
+    align-items: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-spacing: 20px;
+}
+
+#Hob_txt{
+    padding: 10px;
+    color: #03e9f4;
+    justify-items: center;
+    align-items: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-spacing: 20px;
+}
+
+#Title{
+        position: relative;
+        display: inline-block;
+        padding: 25px, 30px;
+        margin: 40px 0;
+        color: #c803f4;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.5s;
+        letter-spacing: 4px;
+        overflow: hidden;
+        margin-right: 50px;
+    }
+
+#Title span {
+    position: absolute;
+    display: block;
+}
+
+#Title span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: animateTitle1 1s linear infinite;
+}
+
+@keyframes animateTitle1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+#Title span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: animateTitle2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+
+@keyframes animateTitle2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+#Title span:nth-child(3) {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: animateTitle3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+
+@keyframes animateTitle3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+#Title span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: animateTitle4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+
+@keyframes animateTitle4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+#img{
+
+    width: 250px;
+    height: auto;
+    position: relative;
+    align-items: center;
+    border: 25px
+    position: relative;
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    color: #c803f4;
+    transition: 0.5s;
+    overflow: hidden;
+}
+#img span{
+    position: absolute;
+    display: block;
+}
+
+
+#img:hover{
+    size: 150%;
+}
